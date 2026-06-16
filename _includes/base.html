@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cristian C.M. Home</title>
+  <title>{{ title }}</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
-    <h1>cristiancm.com</h1>
-    <p>Bem-vindo ao meu site</p>
+    {{ content | safe }}
   </main>
 </body>
 </html>
