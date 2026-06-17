@@ -461,6 +461,46 @@ a:hover {
   padding: var(--spacing-2xl) 0;
 }
 
+/* Heading anchor links (GitHub-style) */
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  position: relative;
+  scroll-margin-top: 2rem;
+}
+
+.heading-link {
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.heading-link::after {
+  content: '#';
+  position: absolute;
+  left: -1.4em;
+  color: var(--color-accent);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  font-size: 0.85em;
+}
+
+.post-content h2:hover .heading-link::after,
+.post-content h3:hover .heading-link::after,
+.post-content h4:hover .heading-link::after,
+.post-content h5:hover .heading-link::after,
+.post-content h6:hover .heading-link::after {
+  opacity: 1;
+}
+
+.heading-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
 /* Responsive */
 @media (max-width: 640px) {
   main {
