@@ -40,12 +40,31 @@ body {
 .menu {
   position: fixed;
   top: 0;
+  left: 0;
   right: 0;
   padding: var(--spacing-xl) var(--spacing-2xl);
   display: flex;
   gap: var(--spacing-xl);
   align-items: center;
+  justify-content: space-between;
   z-index: 1000;
+  background-color: var(--color-bg);
+  pointer-events: none;
+}
+
+.menu-logo {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: opacity 0.3s ease;
+  letter-spacing: 0.05em;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.menu-logo:hover {
+  opacity: 0.7;
 }
 
 .menu-item {
@@ -56,6 +75,8 @@ body {
   transition: color 0.3s ease;
   border-bottom: 2px solid transparent;
   padding-bottom: 0.25rem;
+  pointer-events: auto;
+  cursor: pointer;
 }
 
 .menu-item:hover {
@@ -202,6 +223,7 @@ a:hover {
 .list-header {
   text-align: center;
   margin-bottom: var(--spacing-2xl);
+  margin-top: 5rem;
 }
 
 .list-header h1 {
@@ -318,6 +340,7 @@ a:hover {
 .post-header {
   text-align: center;
   margin-bottom: var(--spacing-2xl);
+  margin-top: 5rem;
 }
 
 .post-header h1 {
