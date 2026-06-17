@@ -472,11 +472,13 @@ a:hover {
 .post-content h5,
 .post-content h6 {
   scroll-margin-top: 2rem;
+  position: relative;
 }
 
 .heading-link {
   color: inherit;
   text-decoration: none;
+  position: relative;
 }
 
 .heading-link::before {
@@ -485,8 +487,11 @@ a:hover {
   opacity: 0;
   transition: opacity 0.2s ease;
   font-weight: normal;
-  margin-right: 0.25em;
   display: none;
+  position: absolute;
+  left: -1.5em;
+  width: 1.5em;
+  text-align: right;
 }
 
 @media (min-width: 768px) {
