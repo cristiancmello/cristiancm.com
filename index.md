@@ -4,11 +4,15 @@ title: Cristian C.M. — Fullstack Software Engineer
 permalink: /
 ---
 
+<nav class="menu">
+  <a href="/learning-in-public" class="menu-item">Learning in Public (PT-BR)</a>
+</nav>
+
 <section class="hero">
   <div class="hero-content">
     <h1>Cristian C.M.</h1>
-    <p class="subtitle">Fullstack Software Engineer</p>
-    <p class="role">Backend-focused | Java • Kotlin • Spring</p>
+    <p class="subtitle">Software Engineer</p>
+    <p class="role">Backend-focused | Java • Kotlin • Spring | Frontend • React • TypeScript</p>
     <p class="bio">Building reliable systems through test-driven development and comprehensive test coverage.</p>
     
     <div class="divider"></div>
