@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="sphereGradient" cx="35%" cy="35%">
+      <stop offset="0%" style="stop-color:#1a7fff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0052a3;stop-opacity:1" />
+    </radialGradient>
+
+    <!-- Máscara para clipping do texto -->
+    <mask id="textMask">
+      <rect width="200" height="200" fill="white"/>
+      <text x="100" y="115" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="black" letter-spacing="4">
+        CCM
+      </text>
+    </mask>
+
+    <!-- Padrão de textura para estampa -->
+    <pattern id="stampaTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="2" height="2" fill="black" opacity="0.08"/>
+      <rect x="2" y="2" width="2" height="2" fill="black" opacity="0.08"/>
+    </pattern>
+
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+
+    <!-- Filtro de profundidade para estampa -->
+    <filter id="stampEffect">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.5"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.6"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <!-- Esfera principal -->
+  <circle cx="100" cy="100" r="95" fill="url(#sphereGradient)" filter="url(#shadow)"/>
+
+  <!-- Highlight de luz -->
+  <ellipse cx="70" cy="70" rx="35" ry="35" fill="white" opacity="0.05"/>
+
+  <!-- Sombra inferior -->
+  <ellipse cx="100" cy="165" rx="85" ry="20" fill="black" opacity="0.1"/>
+
+  <!-- Estampa de sombra (parte recuada) -->
+  <text x="100" y="115" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="black" opacity="0.15" letter-spacing="4" filter="url(#stampEffect)">
+    CCM
+  </text>
+
+  <!-- Padrão de textura na estampa -->
+  <g mask="url(#textMask)">
+    <circle cx="100" cy="100" r="95" fill="url(#stampaTexture)"/>
+  </g>
+
+  <!-- Texto CCM destaque (parte elevada) -->
+  <text x="100" y="113" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="white" opacity="0.9" letter-spacing="4">
+    CCM
+  </text>
+</svg>

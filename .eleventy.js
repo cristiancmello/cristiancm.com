@@ -1,5 +1,6 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("style.css");
+  eleventyConfig.addPassthroughCopy("favicon.svg");
 
   return {
     dir: {
@@ -8,6 +9,7 @@ module.exports = function(eleventyConfig) {
       includes: "_includes"
     },
     markdownTemplateEngine: "njk",
-    htmlTemplateEngine: "njk"
+    htmlTemplateEngine: "njk",
+    pathPrefix: "/"
   };
 };
