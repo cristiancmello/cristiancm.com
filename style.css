@@ -40,16 +40,21 @@ body {
 .menu {
   position: fixed;
   top: 0;
-  left: 0;
   right: 0;
   padding: var(--spacing-xl) var(--spacing-2xl);
   display: flex;
   gap: var(--spacing-xl);
   align-items: center;
-  justify-content: space-between;
   z-index: 1000;
   background-color: var(--color-bg);
   pointer-events: none;
+}
+
+/* Blog pages menu - left to right layout */
+.menu-blog {
+  left: 0;
+  right: 0;
+  justify-content: space-between;
 }
 
 .menu-logo {
