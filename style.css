@@ -55,33 +55,33 @@ main {
 }
 
 .hero h1 {
-  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  font-size: clamp(3.3rem, 9vw, 4.5rem);
   font-weight: 700;
   letter-spacing: -0.02em;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.8rem;
   color: var(--color-text);
 }
 
 .hero .subtitle {
-  font-size: clamp(0.95rem, 2.2vw, 1.1rem);
+  font-size: clamp(1.65rem, 3.75vw, 2.1rem);
   color: var(--color-accent);
   font-weight: 600;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.6rem;
   letter-spacing: 0.01em;
 }
 
 .hero .role {
-  font-size: 0.85rem;
+  font-size: 1.425rem;
   color: var(--color-text-secondary);
   font-weight: 500;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   letter-spacing: 0.02em;
 }
 
 .hero .bio {
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   color: var(--color-text-secondary);
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.5rem;
   line-height: 1.5;
   max-width: 600px;
   margin-left: auto;
@@ -92,42 +92,42 @@ main {
 .divider {
   width: 50px;
   height: 25px;
-  margin: 0.6rem auto;
+  margin: 1.2rem auto;
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><path d="M10 10 Q20 5 30 10 T50 10 T70 10" stroke="%230066cc" stroke-width="2" fill="none"/><path d="M10 20 Q20 15 30 20 T50 20 T70 20" stroke="%230066cc" stroke-width="2" fill="none"/><path d="M10 30 Q20 25 30 30 T50 30 T70 30" stroke="%230066cc" stroke-width="2" fill="none"/></svg>') center/contain no-repeat;
 }
 
 .current-work {
-  font-size: 0.8rem;
+  font-size: 1.35rem;
   color: var(--color-text-secondary);
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
   line-height: 1.4;
 }
 
 .location {
-  font-size: 0.8rem;
+  font-size: 1.35rem;
   color: var(--color-text-secondary);
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.5rem;
   line-height: 1.4;
 }
 
 /* Social Links */
 .social-links {
   display: flex;
-  gap: var(--spacing-sm);
+  gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .social-link {
   display: inline-block;
-  padding: 0.5rem 0.9rem;
+  padding: 0.9rem 1.65rem;
   border: 2px solid var(--color-accent);
   color: var(--color-accent);
   text-decoration: none;
   border-radius: 4px;
   font-weight: 500;
   transition: all 0.3s ease;
-  font-size: 0.85rem;
+  font-size: 1.425rem;
 }
 
 .social-link:hover {
