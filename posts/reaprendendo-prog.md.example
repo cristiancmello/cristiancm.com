@@ -1,0 +1,135 @@
+---
+layout: blog-post.html
+title: Aprendendo a ser um melhor estudante com John Locke
+date: 2026-06-17
+excerpt: Scheme e princípios de John Locke no estudo de programação.
+permalink: /blog/reaprendendo-prog/
+---
+
+<!-- Estou trabalhando devagar, ainda mais que decidir aprender SICP JS em vez de Scheme -->
+
+Me considero um *recém-leitor*. Há cerca de dois anos (re)descobri o prazer na leitura. Sou um novato, portanto. Como
+escritor, idem. Tenho grande entusiasmo em pesquisas bibliográficas, as quais, no passado, eram só catalogados e esquecidos. 
+Nessas minhas aventuras, por vezes me deparo com obras que já tentei ler e desisti por não entender nada. O tempo passa
+e algumas coisas melhoram. Penso que hoje consigo me dedicar mais nessa empreitada.
+
+Como cheguei nessa ideia de aprender a ser um melhor estudante? Observando um livro conhecido na comunidade acadêmica mundial chamado SICP. Mas por que "ser um melhor estudante" surgiu na minha mente? Desconfiei de que, para ser um bom leitor,
+preciso reexaminar meus métodos de estudo das obras.
+
+## O gancho foi o SICP
+
+Há alguns anos, desde a faculdade, eu já ouvia falar deste livro, Structure and Interpretation of Computer Programs ou
+SICP. Eu achava ele incrível, com tantos comentários em fóruns e referências em outros livros da área de computação.
+Mas para mim, lê-lo e entender era outra história e acabei deixando de lado por um longo tempo. Agora, neste ano,
+dei uma nova chance, adotando um ritmo de leitura mais lento, atencioso e, claro, com alguns anos de experiência
+em programação.
+
+## Uma grata surpresa com a introdução do SICP
+
+A introdução dessa obra é uma das mais brilhantes da Ciência da Computação. Os autores trouxeram um trecho
+de uma das obras mais estudadas em Filosofia nos últimos 400 anos, uma análise sobre como nós, seres humanos,
+formamos nosso conhecimento sobre o mundo. Um grande surpresa que me fez abandonar a adoção sem critério de
+livros de auto-ajuda sobre "Como ser um melhor estudante?" e transformou para "Como ter suas próprias boas ideias e
+não cair na onda dos outros". Um divisor de águas para a minha vida.
+
+## Um tal de John Locke
+
+Eu conhecia John Locke somente pela influência no Iluminismo e na Filosofia sobre assuntos como Direito.
+Agora, sobre a Filosofia do Pensamento, também foi uma ótima surpresa. Saí em busca da literatura sobre John Locke
+e comentários de outros autores de filosofia.
+
+## Entre a Razão e a opinião alheia
+
+Definir Razão entre num território da Filosofia que eu ainda estou no início da compreensão. Entretanto, John Locke e outros
+autores puderam nos dar alguns entendimentos mais acessíveis.
+
+[DUNN2003] Locke defende que a **Razão** é o guia-mestre na jornada da vida. Sem ela, estamos sujeitos a opiniões.
+Estas podem estar influenciadas por aspectos de pura sorte, nos sujeitando a erros e mentiras, entre escolhas
+e direções pouco claras e aleatórias. 
+
+[EU] E o que é a Razão? **É capacidade de pensar** e, mais especificamente, pensar instruídos de lógica. Posso dizer
+que é formar o pensamento usando estruturas, regras e procedimentos fáceis de perceber.
+
+[DUNN2003] O **Raciocínio** exige esforço e dedicação, pesquisas intensas e tentativas.
+
+[EU] Isto é, todo Raciocínio é feito de um processo composto de ações carregadas de força e habilidades. Podemos ver o
+Raciocínio como a aplicação da razão e não tem como separá-la do esforço (*Pains and Application*, de acordo com Locke).
+Acrescente o **Cuidado** e este deve ser enfatizado, porque esforço sem cuidado é o mesmo que agir no impulso,
+nos propondo ao **_embaraço_** (digo, **ficarmos empacados, hesitantes para a nossa próxima ação**) e distantes da verdade.
+
+## Sobre a tal da verdade que tanto Locke dizia
+
+"Nenhuma verdade penetra em nossas mentes sem a experiência". Locke era contra a ideia de verdades absolutas. Ele
+se colocava no meio: de acordo com o que vivemos, geramos nossa verdade e ela pode ter margens de erro. 
+
+Se existem margens de erro, qual o motivo de tentar buscar a verdade? Aqui eu me alio com Locke. Eu prefiro exercer
+minha liberdade de pensar os meus pensamentos e evitar embarque em opiniões, ficando dependentes do julgamento 
+potencialmente superficiais e errôneo dos outros.
+
+> "Como os seres humanos são livres, devem pensar e julgar por si mesmos" (Locke)
+
+## Nomes diferentes para Ideias simples equivalentes
+
+Um fenômeno comum quando pensamos sobre ideias muito fundamentais, dito como simples, é que em cada língua, cultura, 
+família e indivíduo tem capacidade de produzir nomes variados para as mesmas coisas.
+
+### Exemplo: a ideia de 'Amarelo'
+
+Minha ideia de 'Amarelo' pode ser diferente da sua. Mas todos os nomes representam 'Amarelo'.
+Amarelo para mim tem tom Mostarda. Para alguns, tons dourados ou pálidos.
+
+### Outro exemplo: for, forEach, map, reduce e while são nomes diferentes para uma mesma coisa
+
+**Aplique um procedimento repetidamente para cada elemento.** Este é o conceito que, por sua vez, possui diferentes 
+nomes:
+- Iteração;
+- Laços de repetição;
+- Loop;
+- `for` para muitas linguagens como C, Java e etc;
+- jumps cíclicos em Assembly;
+- Recursão em linguagens funcionais.
+- ... muitos outros nomes.
+
+> Observo que existem implicações educacionais com isso. Materiais de estudo de qualidade evitam uso de termos como
+nomes muito particulares de uma tecnologia, recorrendo a abstrações com a utilização de expressões mais fáceis
+de entender.
+
+## Quem pensa com cuidado e rigor pensa junto. Nasce a harmonia!
+
+> I am apt to think, that Men, when they come to examine them, find their
+simple Ideas all generally to agree, though in discourse with one another,
+they perhaps confound one another with different Names. I imagine, that
+Men who abstract their Thoughts, and do well examine the Ideas of their
+own Minds, cannot much differ in thinking.
+
+Às vezes temos medo por achar que as outras pessoas vão nos encarar desconfiança e desprezo por nossas ideias.
+Locke nos convida a estarmos mais tranquilos, porque quem pensa bem tem suas ideias submetidas ao cuidado e rigor
+de qualquer outra pessoa que também pensa bem. 
+
+As pessoas são livres e podem ter suas verdades e ideias sobre tudo e a experiência delas podem nos confrontar, confirmar
+ou até mesmo terem ideias ainda mais criteriosas do que as nossas, podemos adotar perspectivas diferentes para uma mesma ideia. Devemos encará-las como provações para que possamos examinar nossas ideias com maior critério e, assim, teremos um acordo entre os nossos pensamentos.
+
+## A superação da tirania sintática com o SICP
+
+Mingyi Yu em sem artigo [Histories of Techne ON COMPUTER SCIENCE AS "PROCEDURAL EPISTEMOLOGY"](https://amodern.net/article/on-computer-science/)
+resume muito bem a intenção dos autores com a publicação do SICP: estabelecer a base filosófica de que
+devemos observar a Informática através do estudo da estrutura do conhecimento utilizando o ponto de vista das ações e não
+de definições, como ocorre com as visões matemáticas e lógicas formalistas. A epistemologia procedimental apontada
+no artigo de Yu se refere exatamente ao ponto de vista das ações.
+
+A maior preocupação no SICP é de estabelecer a computação como algo mais próximo sobre a **forma como estruturamos
+o pensamento e como expressamos o que temos em mente**.
+
+Yu acompanha os autores do SICP, entendendo que aprender uma linguagem de programação (como Scheme) nos envolve ao ímpeto
+da busca de respostas para estes questionamentos:
+- O que queremos computar?
+- Como decompor um problema em partes gerenciáveis?
+- Depois que um problema foi decomposto, como vamos trabalhar nessas pequenas partes?
+
+Assim, devemos por de lado preocupações sobre formas sintáticas porque elas não importam. Devemos nos concentrar
+em escrever programas que as pessoas possam ler e as máquinas, por sorte, executem. Ou seja, escrevemos para humanos.
+
+## Prioridade número 1: formar conhecimento sobre técnicas para controlar complexidade intectual dos sistemas
+
+Adicionamos recursos e mais recursos a um sistema, com diversas correções, manutenções e testes. 
+A complexidade intelectual de lidar com um sistema formado de muitas partes atemoriza a todos. 
